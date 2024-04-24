@@ -1,0 +1,10 @@
+* ob-typst
+Typst in org mode. Most of the code comes from ob-dot.el
+
+#+begin_src typst :file test.png
+#set page(width: auto, height: auto)
+= hello world!
+#+end_src
+
+#+RESULTS:
+[[file:test.png]]
